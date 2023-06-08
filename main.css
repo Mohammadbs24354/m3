@@ -1,0 +1,62 @@
+.chicken-titel{
+    background-color:rgb(185, 185, 185);
+}
+
+.chicken-h{
+    background-color: rgb(172, 145, 247);
+    display: block;  
+}
+
+.chicken-h:hover{
+    background-color: rgb(150, 150, 241);
+}
+
+.list {
+    margin-left: auto;
+  }
+  
+  @media (max-width: 767px) {
+    .list {
+      margin-left: 0;
+      margin-right: auto;
+    }
+  }
+
+  #nav-c{
+    background-color: rgb(185, 185, 185) !important;
+  }
+  body{
+    background-color: rgb(217, 224, 217) !important;
+  }
+
+ #scrollToTopButton {
+    display: none; /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #f7f7f7;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #scrollToTopButton:hover {
+    background-color: rgb(172, 145, 247);
+  }
+
+
+  @media (min-width: 768px) {
+  .menu-box{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .chicken-titel{
+    margin: 10px;
+  }
+}
